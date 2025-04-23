@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import { loadLlamaPipeline, callLlama } from "@/utils/chatUtils";
 import { toast } from "@/components/ui/sonner";
 
-// Message interface
+//  Message interface
 export interface Message {
   id: string;
   content: string;

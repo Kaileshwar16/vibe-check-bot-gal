@@ -1,6 +1,7 @@
 
 import { pipeline } from "@huggingface/transformers";
 
+
 export const llamaModelName = "Xenova/llama-2-7b-chat";
 
 // Prompt builder for Gen Z
