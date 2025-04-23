@@ -1,6 +1,7 @@
 
 import React, { ReactNode } from "react";
 
+
 interface AppLayoutProps {
   children: ReactNode;
 }

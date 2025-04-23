@@ -1,5 +1,5 @@
 
-# Vibe Check Bot - Your Gen Z Stress Relief Companion
+#  Vibe Check Bot - Your Gen Z Stress Relief Companion
 
 A playful web app that helps users reduce stress through light-hearted conversations with a Gen Z-inspired AI chat bot with voice responses.
 
