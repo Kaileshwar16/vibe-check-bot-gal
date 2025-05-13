@@ -8,7 +8,6 @@ interface ChatHeaderProps {
   toggleMute: () => void;
 }
 
-
 const ChatHeader: React.FC<ChatHeaderProps> = ({isMuted, toggleMute}) => {
   return (
     <div className="bg-gradient-to-r from-vibecheck-purple to-vibecheck-pink p-4 text-white flex items-center justify-between">
