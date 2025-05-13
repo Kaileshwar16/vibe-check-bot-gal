@@ -22,6 +22,7 @@ const ApiKeyForm: React.FC<ApiKeyFormProps> = ({ onApiKeySubmit }) => {
     }
     
     setIsLoading(true);
+
     
     try {
       // In a real app, you'd validate the API key with a backend call
