@@ -11,6 +11,7 @@ export interface Message {
   timestamp: Date;
 }
 
+
 export const useChat = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
