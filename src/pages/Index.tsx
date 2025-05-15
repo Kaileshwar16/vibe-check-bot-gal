@@ -6,7 +6,7 @@ import ChatInterface from "@/components/ChatInterface";
 const Index = () => {
   const [apiKey, setApiKey] = useState<string | null>(null);
 
-   // Check for API key in session storage on initial load
+   // Check for  API key in session storage on initial load
   useEffect(() => {
     const storedApiKey = sessionStorage.getItem("vibeCheckApiKey");
     if (storedApiKey) {
